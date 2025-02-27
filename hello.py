@@ -1,20 +1,29 @@
-print("===Welcome===")
+def hello(to):
+    print("hello,", to)
 
-# Ask user to user for hello #
+
+    print("===Welcome to calculator!===")
+
+# Ask user to user for hello 
 name = input( "What's your name?" ).strip().title().capitalize().title().strip()
 
-#split name user 
+hello (name)
+
+# Split last name user 
 first, last = name.split(" ")
 
 
-# Say hello to  user #
-print(f" halo, {first}")
+# Say hello to first name user 
+print(f" halo, {first}!")
 
 
 # Small calculator
 
-x = int (input("whats x ? "))
-y = int (input("whats y ? "))
+x = float (input("whats x ? "))
+y = float (input("whats y ? "))
 
+z = round(x * y)
 
-print(x * y)
+print(f"{z:,}" )
+
+print("Thanks for run the program!")
