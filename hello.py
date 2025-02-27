@@ -1,4 +1,4 @@
-
+print("===Welcome===")
 
 # Ask user to user for hello #
 name = input( "What's your name?" ).strip().title().capitalize().title().strip()
@@ -17,7 +17,10 @@ x = int (input("whats x ? "))
 y = int (input("whats y ? "))
 
 
-print(x + y)
+print(x * y)
+
+
+
 
 
   
