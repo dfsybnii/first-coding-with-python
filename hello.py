@@ -18,11 +18,3 @@ y = int (input("whats y ? "))
 
 
 print(x * y)
-
-
-
-
-
-  
-    
-  
